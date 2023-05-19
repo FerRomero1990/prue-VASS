@@ -53,6 +53,7 @@
 }
 
 .formulario {
+  border-bottom: 1px solid white;
   background: black;
   color: white;
 }
@@ -116,7 +117,7 @@ button {
 .info {
   padding: 0 0 10% 5%;
   font-size: x-small;
-  background: rgb(41, 41, 41);
+  background: rgb(26, 25, 25);
   color: white;
 }
 
@@ -130,7 +131,7 @@ button {
 
 footer {
   border-top: 1px solid white;
-  background: rgb(41, 41, 41);
+  background: rgb(26, 25, 25);
   color: white;
   font-size: x-small;
   justify-items: center;
