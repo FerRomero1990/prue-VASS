@@ -1,39 +1,70 @@
 .container
 {
+  padding: 0%;
   position: relative;
+  font-family: sans-serif;
 }
-nav 
+.navbar 
 {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  padding: 0;
   font-size: 20px;
   background: black;
   color: white;
 }
+// #menu-hamburguesa
+// {
+//   display: none;
+//   background-color: #333;
+//   width: 100%;
+//   text-align: center;
+// }
+// #menu-hamburguesa ul li {
+//   padding: 15px 0;
+// }
+// #menu-hamburguesa ul li a {
+//   color: #fff;
+//   font-size: 18px;
+//   font-family: sans-serif;
+// }
+.col-12
+{
+  padding: 0;
+}
 .stairs
 {
   display: block;
-  width: 100%;
+  width: 96.8%;
   height: auto;
-  margin-bottom: 50%;
+  margin: 0 0 40% 0;
 }
 .contacto
 {
   z-index: 0;
+  // margin-left: 0;
   position: absolute;
   top: 8%;
-  left: 10%;
+  left: 2%;
   color: rgba(255, 255, 255, 0.548);
   font-size: 50px;
-  text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: start;
+  // text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bolder;
 }
 .sencillo
 {
+  margin-left: 10%;
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
 }
 .leyenda
 {
+  margin-left: 10%;
+  padding-left: 5%;
   border-left: 2px solid #000;
   font-size: 20px;
   margin-bottom: 20%;
@@ -43,12 +74,50 @@ nav
   background: black;
   color: white;
 }
+nombre-apellido
+{
+  margin-top: 50%;
+}
 input
 {
-  width: 5%;
+  margin: 15% 5% 15% 15%;
+  background-color: #000;
+  border: none;
+  border-bottom: 1px solid rgb(80, 79, 79);
+}
+label
+{
+  margin-left: 15%;
+  margin-bottom: 10%;
+}
+textarea
+{
+  margin-left: 15%;
+  width: 210px;
+  height: 100px;
+  background-color: #000;
+  border-radius: 5px;
+}
+button
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  color: white;
+  background-color: #000;
+  border-color: white;
+  margin: 20% 10% 20% 50%;
+}
+:placeholder-shown
+{
+  font-weight: 500;
+  color: white;
 }
 .complex
 {
+  font-size:medium;
+  padding-top: 15%;
+  margin: 0% 5% 15% 0;
   justify-content: end;
   text-align: end;
 }
@@ -58,6 +127,7 @@ input
 }
 .info
 {
+  padding: 0 0 10% 5%;
   font-size: x-small;
   background: rgb(41, 41, 41);
   color: white;
@@ -70,3 +140,48 @@ input
 {
   margin-bottom: 5%;
 }
+footer
+{
+  border-top: 1px solid white;
+  background:  rgb(41, 41, 41);
+  color: white;
+  font-size: x-small;
+  justify-items: center;
+  text-align: center;
+}
+.copy
+{
+  padding: 15% 0 5% 0;
+}
+.redes
+{
+  justify-content: center;
+  align-content: center;
+  padding: 10% 10%;
+}
+.col-gorjeo
+{
+  margin-left: 14%;
+  display: block;
+  width: 18%;
+  height: auto;
+}
+.col-linkedin
+{
+  display: block;
+  width: 18%;
+  height: auto;
+}
+.col-instagram
+{
+  display: block;
+  width: 18%;
+  height: auto;
+}
+.col-youtube
+{
+  display: block;
+  width: 18%;
+  height: auto;
+}
+
